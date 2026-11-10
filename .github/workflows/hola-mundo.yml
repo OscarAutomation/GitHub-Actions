@@ -2,13 +2,11 @@
 
 name: aprendiendo gitHub Actions
 run-name: ejecutando GitAction
-
-on:[push]
-
+on: [push]
 jobs:
   hola-mundo:
     runs-on: ubuntu-latest
     steps:
-      name:  correr archivo
-      run: test-javascript.js
+      - name: correr archivo
+      - run: test-javascript.js
   
