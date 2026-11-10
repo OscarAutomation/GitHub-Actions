@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: correr archivo
-      - run: test-javascript.js
+        run: test-javascript.js
   
