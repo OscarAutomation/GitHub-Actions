@@ -1,0 +1,13 @@
+# This is a basic workflow to help you get started with Actions
+
+name: aprendiendo gitHub Actions
+run-name: ejecutando GitAction
+
+# Controls when the workflow will run
+on:
+  hola-mundo:
+    runs-on: ubuntu-latest
+    steps:
+      name:  correr archivo
+      run: javascript holamundo.yml
+  
