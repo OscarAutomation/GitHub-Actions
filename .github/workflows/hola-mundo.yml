@@ -3,11 +3,12 @@
 name: aprendiendo gitHub Actions
 run-name: ejecutando GitAction
 
-# Controls when the workflow will run
-on:
+on:[push]
+
+jobs:
   hola-mundo:
     runs-on: ubuntu-latest
     steps:
       name:  correr archivo
-      run: javascript holamundo.yml
+      run: test-javascript.js
   
