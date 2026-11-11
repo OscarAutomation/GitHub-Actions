@@ -17,6 +17,15 @@ on:
         required: true
         default: juan
 
+jobs:
+  hola-mundo:
+    runs-on: windows-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+        
+      - name: correr archivo
+        run: node test-javascript.js
 
   
         
