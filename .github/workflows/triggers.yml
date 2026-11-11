@@ -1,0 +1,22 @@
+name: Triggers
+run-name: premier trigger
+
+on:
+  push:
+    branches: 
+    - main
+
+  workflow_dispatch:
+    inputs:
+      lenguaje_favorito:
+        description: 'lenguaje favorito'
+        default: javascript
+        required: true
+      nombre:
+        description: 'tu nombre'
+        required: true
+        default: juan
+
+
+  
+        
